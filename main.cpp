@@ -3,5 +3,5 @@
 #include "function_declaration.h"
 int main()
 {
-   return testfunc(); 
+   return testrvalue(); 
 }

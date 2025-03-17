@@ -15,4 +15,6 @@ struct Bar
 
 int testfunc();
 
+int testrvalue();
+
 #endif
