@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.10)
+project(learn_cpp_new_features)
+
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h" "*.hpp")
+
+add_executable(${PROJECT_NAME} 
+  ${SOURCES} 
+  ${HEADERS}  # 可选，见下方说明
+)
+

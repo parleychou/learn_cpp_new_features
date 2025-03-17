@@ -1,0 +1,36 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/CMakeLists.txt",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.outputLogEncoding": "utf-8",
+    "files.associations": {
+        "*.tcc": "cpp",
+        "codecvt": "cpp",
+        "filesystem": "cpp"
+    },
+    "cmake.configureSettings": {
+        "CMAKE_BUILD_TYPE": "Debug"
+    },
+    "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell",
+        "args": [
+            "-NoLogo",
+            "-NoExit",
+            "-Command",
+            "chcp.com 65001"
+        ]
+    },
+    "Command Prompt": {
+        "path": [
+            "${env:windir}\\Sysnative\\cmd.exe",
+            "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [
+            "/K",
+            "chcp 65001"
+        ],
+        "icon": "terminal-cmd"
+    }
+}
+}
