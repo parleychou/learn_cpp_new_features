@@ -5,7 +5,10 @@
     "files.associations": {
         "*.tcc": "cpp",
         "codecvt": "cpp",
-        "filesystem": "cpp"
+        "filesystem": "cpp",
+        "xutility": "cpp",
+        "thread": "cpp",
+        "future": "cpp"
     },
     "cmake.configureSettings": {
         "CMAKE_BUILD_TYPE": "Debug"
