@@ -112,7 +112,14 @@
 				7,
 				8,
 				9,
-				10
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
 			]
 		}
 	],
@@ -142,12 +149,32 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "folderexpression.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
 			"path" : "function_declaration.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
+			"path" : "futuretest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "hash_test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
 			"path" : "lamda.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "likelyattr.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -158,6 +185,21 @@
 		{
 			"backtrace" : 1,
 			"path" : "moveoperator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "optionaltest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ratiotest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testcoroutlines.h",
 			"sourceGroupIndex" : 1
 		},
 		{
